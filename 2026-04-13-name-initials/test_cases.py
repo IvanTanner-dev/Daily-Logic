@@ -1,4 +1,4 @@
-from solution import get_initials;
+import solution
 
 def test_get_initials():
     assert solution.get_initials("John Doe") == "J.D."
