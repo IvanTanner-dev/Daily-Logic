@@ -10,7 +10,7 @@ def test_find_sum():
     assert solution.find_sum([1, 2, 3, 4, 5, 6, 7, 8, 9], 20) == [1, 2, 3, 5, 9]
     assert solution.find_sum([7, 9, 4, 2, 5], 10) == "Sum not found"
 
-    print("✅ All Array Sum Finder tests passed!")
+    print("All Array Sum Finder tests passed!")
 
 if __name__ == "__main__":
     test_find_sum()
